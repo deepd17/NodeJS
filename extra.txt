@@ -1,0 +1,39 @@
+// router.get('/', (req, res)=>{
+//     res.render("index");
+// })
+
+// router.get('/login', (req, res)=>{
+//     res.render("login");
+// })
+
+// router.get('/register', (req, res)=>{
+//     res.render("register");
+// })
+
+// router.get('/services',auth,  (req, res)=>{
+//     res.render("services");   
+// })
+
+// router.get('/main', auth, (req, res)=>{
+//     res.render("main");
+// })
+
+// router.get('/logout', auth, async(req, res)=>{
+//     try {
+
+//         req.user.tokens = req.user.tokens.filter((element)=>{
+//             return element.token != req.token
+//         })
+        
+//         // req.user.tokens = [];
+
+//         res.clearCookie("logined");
+//         await req.user.save();
+
+//         res.render("index");
+//     } catch (error) {
+//         res.status(401).send(error);
+//     }
+    
+
+// })
